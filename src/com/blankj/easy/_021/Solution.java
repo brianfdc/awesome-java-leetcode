@@ -25,7 +25,7 @@ public class Solution {
             temp = temp.next;
         }
         temp.next = l1 != null ? l1 : l2;
-        return head;
+        return head.next;
     }
 
     public static void main(String[] args) {
